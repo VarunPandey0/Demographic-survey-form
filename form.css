@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  font-family: "Mate SC", serif;
+  border-color: hsl(78, 60%, 38%);
+  margin: auto;
+}
+.main {
+  text-align: center;
+  border: 3px solid black;
+  margin: 20px;
+  background-color: hsl(80, 77%, 20%);
+  color: white;
+  opacity: 0.8;
+}
+label::after {
+  content: "\a";
+  white-space: pre;
+}
+#name-lable {
+  width: 20px;
+}
+#name {
+  width: 100%;
+}
+#survey-form {
+  background-color: hsl(234, 60%, 80%);
+  padding: 40px 10px;
+  height: auto;
+  width: auto;
+  font-size: 3vw;
+  font-weight: 650;
+  margin: auto;
+  max-width: 700px;
+  text-align: left;
+}
+textarea {
+  width: 100%;
+}
+#email {
+  width: 100%;
+}
+.form-div {
+  padding: 10px;
+  margin: auto;
+}
+.button {
+  padding-left: 0px;
+  padding: 10px 10px 10px 0px;
+  width: 100%;
+  background-color: green;
+  color: white;
+}
+#title {
+  padding-top: 6%;
+  font-size: 10vw;
+}
+.body {
+  padding: 3%;
+  margin: 20px;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-image: url("https://images.pexels.com/photos/1496372/pexels-photo-1496372.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#number,
+#most-like,
+#role {
+  width: 100%;
+  padding: 10px;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  margin: auto;
+}
+.radio,
+.checkbox {
+  width: 10%;
+}
+#description {
+  margin-bottom: 15%;
+}
+
